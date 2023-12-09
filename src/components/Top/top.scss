@@ -1,0 +1,75 @@
+.main {
+    height: 90vh;
+    position: relative;
+
+    .cat {
+        position: absolute;
+        top: 80px;
+        left: 150px;
+        font-size: 25px;
+        font-weight: 400;
+        color: white;
+        display: flex;
+        align-items: center;
+
+
+
+        select {
+            cursor: pointer;
+            background-color: #0b0b0b;
+            border: 2px solid white;
+            color: white;
+            margin-left: 20px;
+            padding: 5px;
+
+        }
+    }
+
+
+
+    img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .data {
+        width: 30%;
+        position: absolute;
+        left: 90px;
+        bottom: 100px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .desc {
+        margin: 25px 5px;
+        font-size: large;
+
+    }
+
+    .buttons {
+        display: flex;
+
+        button {
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: none;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: 400;
+            margin-right: 20px;
+            cursor: pointer;
+
+            &.more {
+                background-color: gray;
+                color: white;
+            }
+        }
+
+
+    }
+}
